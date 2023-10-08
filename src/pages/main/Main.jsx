@@ -1,5 +1,5 @@
 import React from "react";
-import Background from "../../assets/images/msg-4028609362-30195.jpg";
+import Background from "../../assets/images/bg.png";
 import Button from "../../components/buttons";
 import { co2, head, sprout } from "../../assets/icons";
 import leo from "../../assets/images/leo.png";
@@ -31,7 +31,7 @@ const Main = () => {
   return (
     <div>
       <div>
-        <img className="absolute w-full object-cover h-full" src={Background} alt="" />
+        <img className="absolute w-full object-cover" src={Background} alt="" />
         <div className="relative">
           <Header />
         </div>
@@ -43,7 +43,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="bg-[#1DB688] relative p-[100px]">
+      <div className="bg-[#CAB8B8] bg-opacity-69 relative p-[100px]">
         <p className="text-[white] text-[48px] font-semibold ">
           We are dedicated to expediting climate and biodiversity action through
           the funding and facilitation of decarbonization projects.
@@ -51,7 +51,7 @@ const Main = () => {
       </div>
 
       <div className="p-[100px]">
-        <h4 className="font-semibold text-[#1DB688] text-[72px] mb-[60px]">
+        <h4 className="font-semibold  text-[72px] mb-[60px]">
           Our Values
         </h4>
 
@@ -75,7 +75,7 @@ const Main = () => {
           <div>
             <img src={leo} alt="" />
           </div>
-          <h4 className="text-[#1DB688] text-[48px] font-semibold">
+          <h4 className="text-[#0973B6] text-[48px] font-semibold">
             Why Biodiversity Matter
           </h4>
           <p className="text-[16px] w-[31.25rem]">
@@ -91,7 +91,7 @@ const Main = () => {
           <div>
             <img src={jirav} alt="" />
           </div>
-          <h4 className="text-[#1DB688] text-[48px] font-semibold">
+          <h4 className="text-[#0973B6] text-[48px] font-semibold">
             No Action Leads to End
           </h4>
           <p className="text-[16px] w-[31.25rem]">
@@ -104,7 +104,7 @@ const Main = () => {
         </div>
       </div>
 
-      <div className="bg-[#F0FFFB] p-[100px]">
+      <div className="bg-gray-200 bg-opacity-8 p-[100px]">
         <h4 className="text-[72px] font-semibold pb-5">
           Participate in Our Workshops
         </h4>

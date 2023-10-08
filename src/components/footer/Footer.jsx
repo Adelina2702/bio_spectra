@@ -61,7 +61,7 @@ const Footer = () => {
           />
         </div>
         <div>
-          <button className="py-2 px-4 bg-[#1DB688] rounded-full font-medium">
+          <button className="py-2 px-4 bg-[#C65150] rounded-full font-medium">
             What we do
           </button>
         </div>

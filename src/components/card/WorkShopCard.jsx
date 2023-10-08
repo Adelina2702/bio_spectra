@@ -19,7 +19,7 @@ const WorkShopCard = () => {
                 <img src={item.map} alt="map" />
                 <p>{item.geo}</p>
               </div>
-              <button className="py-2 px-16 bg-[#1DB688] text-white rounded-lg">
+              <button className="py-2 px-16 bg-[#2B7C7D] text-white rounded-lg">
                 Readmore
               </button>
             </div>
